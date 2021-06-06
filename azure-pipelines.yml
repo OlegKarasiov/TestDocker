@@ -1,4 +1,4 @@
-# Docker
+  # Docker
 # Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
@@ -37,3 +37,9 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
+    - task: AzureWebApp@1
+      inputs:
+        azureSubscription: '08d88455-3754-4d45-a48c-ea2fb11751d8'
+        appType: webApp
+        appName: 'testapidocker'
+        package: $(System.DefaultWorkingDirectory)/**/*.zip
