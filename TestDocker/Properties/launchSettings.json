@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:50522",
+      "applicationUrl": "https://testapidocker.azurewebsites.net",
       "sslPort": 44316
     }
   },
