@@ -9601,11 +9601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TestDocker\\TestDocker\\TestDocker.csproj",
+      "projectUniqueName": "E:\\Новая папка\\TestDocker\\TestDocker\\TestDocker.csproj",
       "projectName": "TestDocker",
-      "projectPath": "E:\\TestDocker\\TestDocker\\TestDocker.csproj",
+      "projectPath": "E:\\Новая папка\\TestDocker\\TestDocker\\TestDocker.csproj",
       "packagesPath": "C:\\Users\\karas\\.nuget\\packages\\",
-      "outputPath": "E:\\TestDocker\\TestDocker\\obj\\",
+      "outputPath": "E:\\Новая папка\\TestDocker\\TestDocker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9625,8 +9625,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\TestDocker\\Repository\\Repository.csproj": {
-              "projectPath": "E:\\TestDocker\\Repository\\Repository.csproj"
+            "E:\\Новая папка\\TestDocker\\Repository\\Repository.csproj": {
+              "projectPath": "E:\\Новая папка\\TestDocker\\Repository\\Repository.csproj"
             }
           }
         }

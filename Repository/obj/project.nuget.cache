@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gemKZlGVjCbHOeCvmRLhFCci6++sbeV6BHtTIlgPEtRo70Q/wBXS0eqSi5iR+0cVRisoRBLESNoJw0yR/k2Nsw==",
+  "dgSpecHash": "mIW5CUNN9g613sr24o/4LDY+t0e8bMBY01oKE63HV0RxJDJb8/zFw6AbwQDJ5GlQwM+zDq/mH+3U1fl1HXtASQ==",
   "success": true,
-  "projectFilePath": "E:\\TestDocker\\Repository\\Repository.csproj",
+  "projectFilePath": "E:\\Новая папка\\TestDocker\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karas\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "C:\\Users\\karas\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.6\\microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",

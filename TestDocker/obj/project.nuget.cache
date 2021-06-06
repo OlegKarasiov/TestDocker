@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VmxpPnyWN93kN1YMdajJFWcXTwh/GAw4GeUWNZjjo3ZYw6+KvF5M5Ad44heHC1LM4r/Z3lMFQ7yN/a0p/SCS7Q==",
+  "dgSpecHash": "V9LKoPDIhAgZc3nQ5EFc/kK9i2+XkwR4kvz3JMj5yfFwVc8IwJUeFFnhBcGFOtbdcu9ql02XnGIwBHtmh9BFew==",
   "success": true,
-  "projectFilePath": "E:\\TestDocker\\TestDocker\\TestDocker.csproj",
+  "projectFilePath": "E:\\Новая папка\\TestDocker\\TestDocker\\TestDocker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\karas\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

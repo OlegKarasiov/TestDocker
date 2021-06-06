@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TestDocker\\Repository\\Repository.csproj": {}
+    "E:\\Новая папка\\TestDocker\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "E:\\TestDocker\\Repository\\Repository.csproj": {
+    "E:\\Новая папка\\TestDocker\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TestDocker\\Repository\\Repository.csproj",
+        "projectUniqueName": "E:\\Новая папка\\TestDocker\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "E:\\TestDocker\\Repository\\Repository.csproj",
+        "projectPath": "E:\\Новая папка\\TestDocker\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\karas\\.nuget\\packages\\",
-        "outputPath": "E:\\TestDocker\\Repository\\obj\\",
+        "outputPath": "E:\\Новая папка\\TestDocker\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
