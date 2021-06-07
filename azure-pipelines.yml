@@ -44,4 +44,4 @@ stages:
         appType: 'webApp'
         WebAppName: 'TestAPIDocker'
         VirtualApplication: 'TestAPIDocker'
-        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        packageForLinux: '$(System.DefaultWorkingDirectory)\InnovationInABox-CI\drop\s\build'
