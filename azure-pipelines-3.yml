@@ -37,18 +37,3 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-    - task: PublishPipelineArtifact@0
-      displayName: 'Publish pipeline artifact'
-      inputs:
-        artifactName: 'drop'
-        targetPath: '$(Build.ArtifactStagingDirectory)'
-    - task: AzureRmWebAppDeployment@4
-      inputs:
-        ConnectionType: 'AzureRM'
-        azureSubscription: 'Azure subscription 1(08d88455-3754-4d45-a48c-ea2fb11751d8)'
-        appType: 'webApp'
-        WebAppName: 'TestAPIDocker'
-        deployToSlotOrASE: true
-        ResourceGroupName: 'myResourceGroup'
-        SlotName: 'production'
-        packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
