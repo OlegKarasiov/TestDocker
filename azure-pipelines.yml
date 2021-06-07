@@ -39,7 +39,7 @@ stages:
           $(tag)
     - task: AzureWebApp@1
       inputs:
-        azureSubscription: '08d88455-3754-4d45-a48c-ea2fb11751d8'
+        azureSubscription: 'Azure subscription 1'
         appType: webApp
         appName: 'testapidocker'
         package: $(System.DefaultWorkingDirectory)/**/*.zip
