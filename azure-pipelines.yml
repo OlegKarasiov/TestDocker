@@ -39,7 +39,7 @@ stages:
           $(tag)
     - task: AzureWebApp@1
       inputs:
-        azureSubscription: $(dockerRegistryServiceConnection)
+        azureSubscription: '08d88455-3754-4d45-a48c-ea2fb11751d8'
         appType: webApp
-        appName: 'testapidocker'
+        appName: 'TestAPIDocker'
         package: $(System.DefaultWorkingDirectory)/**/*.zip
