@@ -37,9 +37,11 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)
-    - task: AzureWebApp@1
+    - task: AzureRmWebAppDeployment@4
       inputs:
-        azureSubscription: 'azureConectionString'
-        appType: webApp
-        appName: 'TestAPIDocker'
-        package: $(System.DefaultWorkingDirectory)/**/*.zip
+        ConnectionType: 'AzureRM'
+        azureSubscription: 'Azure subscription 1(08d88455-3754-4d45-a48c-ea2fb11751d8)'
+        appType: 'webApp'
+        WebAppName: 'TestAPIDocker'
+        VirtualApplication: 'TestAPIDocker'
+        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
